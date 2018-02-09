@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<head>
+  <link rel="stylesheet" href="css/normal.css"/>
+  <link rel="stylesheet" href="css/ed-grid.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="css/estilo.css"/>
+  <link rel="stylesheet" href="css/component.css"/>
+  <script src="js/jq.js"></script>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+  <title>Cloket Ayuda</title>
+</head>
+<body class="desarrollos">
+  <div class="grupo tablet-total no-padding cabecera__ck">
+    <div class="caja tablet-15 logo desde-tablet">
+      <p class="logotipo">Cloket</p>
+    </div>
+    <div class="caja tablet-70 no-padding">
+      <form action="" class="buscador__ck">
+        <input type="search" placeholder="¿Donde Buscas?" class="inp inp-lugar"/>
+        <input type="search" placeholder="¿Que Buscas?" class="inp inp-des"/>
+        <button class="icon-buscar btn-buscar"></button>
+      </form>
+    </div>
+    <div class="caja tablet-15 login desde-tablet">
+      <button class="icon-usuario btn-login"></button>
+    </div>
+  </div>
+  <div class="grupo total cinta">
+    <div class="caja desde-tablet tablet-70">
+      <p> Bienvenido!, busca y encuentra aquí todo lo disponible en el cualquier lugar.</p>
+    </div>
+    <div class="caja tablet-30">
+      <p> Mapa</p>  
+    </div>
+  </div>
+  <div class="grupo principal total">
+    <div class="total cabecera__ayuda">
+      <div class="desde-tablet img-ayuda"></div>
+      <input type="search" name="" placeholder="¿ En que puedo Ayudarte ... ?" class="inp-ayuda"/>
+      <button class="btn-ayuda icon-buscar"></button>
+    </div>
+    <div class="contenido__ayuda total">
+      <div class="caja tablet-30 indice__ayuda no-padding web-20">
+        <button aria-label="Open Menu" class="action action--open"><span class="icon icon--menu"></span></button>
+        <div id="ml-menu" class="menu__ayuda">
+          <button aria-label="Close Menu" class="action action--open"><span class="icon icon--menu"></span></button>
+          <div class="menu__wrap">
+            <ul data-menu="main" class="menu__level">
+              <li class="menu__item"><a href="#" id="link__bnv" class="menu__link">Bienvenido</a></li>
+              <li class="menu__item"><a href="#" data-submenu="submenu-1" class="menu__link">Cliente</a></li>
+              <li class="menu__item"><a href="#" data-submenu="submenu-2" class="menu__link">Beneficios</a></li>
+              <li class="menu__item"><a href="#" data-submenu="submenu-3" class="menu__link">Preguntas Frecuentes</a></li>
+              <li class="menu__item"><a href="#" id="link__contactenos" class="menu__link">Contactenos</a></li>
+            </ul>
+            <ul data-menu="submenu-1" class="menu__level">
+              <li class="menu__item"><a href="#" id="link__soy__cliente" class="menu__link">Soy Cliente</a></li>
+              <li class="menu__item"><a href="#" id="link__ser__cliente" class="menu__link">Quiero ser Cliente</a></li>
+              <li class="menu__item"><a href="#" id="link__negocio" class="menu__link">Mi Negocio</a></li>
+              <li class="menu__item"><a href="#" id="link__beneficios" class="menu__link">Beneficios</a></li>
+            </ul>
+            <ul data-menu="submenu-2" class="menu__level">
+              <li class="menu__item"><a href="#" class="menu__link">Soy Cliente</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Quiero ser Cliente</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Mi Negocio</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Beneficios</a></li>
+            </ul>
+            <ul data-menu="submenu-3" class="menu__level">
+              <li class="menu__item"><a href="#" id="link__encuentran" class="menu__link">Como me encuentran</a></li>
+              <li class="menu__item"><a href="#" id="link__administro" class="menu__link">Como administro mi Seccion</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Como anuncio en cloket</a></li>
+              <li class="menu__item"><a href="#" class="menu__link">Como genero un evento</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="contenido__ayuda" class="caja tablet-65 web-75 contenido__ayuda"></div>
+      <div class="caja tablet-5 web-5"></div>
+    </div>
+  </div>
+  <script src="js/modernizr-custom.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/indice.js"></script>
+  <script src="js/data.js"></script>
+</body>

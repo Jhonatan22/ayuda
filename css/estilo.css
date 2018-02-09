@@ -1,0 +1,217 @@
+body {
+  background: #f5f8fa;
+}
+.cabecera__ck {
+  background: #fff;
+  height: 50px;
+  max-width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+.cabecera__ck .buscador__ck {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+.cabecera__ck .inp {
+  padding: 3px;
+  height: 32px;
+}
+.cabecera__ck .inp-lugar {
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: 40%;
+}
+.cabecera__ck .inp-des {
+  -webkit-flex-grow: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: 50%;
+}
+.cabecera__ck .btn-buscar {
+  background: #009688;
+  color: #fff;
+  border: none;
+  border: 1px solid #009688;
+  margin: 0;
+  transition: all 0.4s ease;
+}
+.cabecera__ck .btn-buscar:hover {
+  background: #fff;
+  color: #009688;
+}
+.cabecera__ck .btn-login {
+  background: #009688;
+  color: #fff;
+  border: none;
+  border: 1px solid #009688;
+  margin: 0;
+  transition: all 0.4s ease;
+  float: right;
+  margin: 4px;
+  width: 60%;
+}
+.cabecera__ck .btn-login:hover {
+  background: #fff;
+  color: #009688;
+}
+.cabecera__ck .logo {
+  cursor: pointer;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cabecera__ck .logo .logotipo {
+  color: #009688;
+  font-family: maven-pro;
+  font-size: 1.5em;
+}
+@media all and (min-width100px) {
+  .logo {
+    width: 2225%;
+  }
+}
+@media all and (min-width770px) {
+  .inp-des {
+    width: 45%;
+  }
+  .inp-lugar {
+    width: 45%;
+  }
+}
+.cinta {
+  background: #009688;
+  color: #fff;
+  position: fixed;
+  top: 50px;
+  z-index: 999999;
+  height: 28px;
+  padding: 2px 1em;
+}
+.principal {
+  top: 78px;
+}
+.cabecera__ayuda {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #35c1bf;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.cabecera__ayuda .img-ayuda {
+  background: url("../img/encuentra.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  width: 200px;
+}
+.cabecera__ayuda .inp-ayuda {
+  height: 40px;
+  padding: 0 15px;
+  width: 50%;
+}
+.cabecera__ayuda .btn-ayuda {
+  background: #39c;
+  border: none;
+  color: #fff;
+  font-size: 1.1em;
+  margin-bottom: 0px;
+}
+.contenido__ayuda {
+  position: relative;
+}
+.contenido__ayuda .indice__ayuda {
+  position: relative;
+  padding: 0 2em;
+  padding-bottom: 0.8em;
+}
+.contenido__ayuda .contenido__ayuda {
+  position: relative;
+  margin: 1.5em 0;
+  background: #fff;
+  box-shadow: 1px 1px 1px #cfd8dc, -1px -1px 1px #cfd8dc;
+  padding: 2em;
+  text-align: justify;
+}
+.contenido__ayuda .contenido__ayuda h4 {
+  color: rgba(0,0,0,0.67);
+}
+.contenido__ayuda .contenido__ayuda h3 {
+  text-align: center;
+  color: rgba(0,0,0,0.67);
+}
+.contenido__ayuda .contenido__ayuda p {
+  padding: 1em 0;
+  color: rgba(0,0,0,0.57);
+  font-size: 1.2em;
+  margin: 0;
+}
+.contenido__ayuda .contenido__ayuda span {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  color: rgba(0,0,0,0.57);
+  padding: 0.5em;
+}
+.contenido__ayuda .contenido__ayuda em {
+  text-align: center;
+  display: block;
+  padding-top: 1em;
+}
+.contenido__ayuda .contenido__ayuda .lista {
+  padding: 1em;
+  font-size: 1.4em;
+  color: rgba(0,0,0,0.57);
+  display: block;
+}
+.contenido__ayuda .contenido__ayuda .lista-mid {
+  padding: 1em;
+  font-size: 1.4em;
+  color: rgba(0,0,0,0.57);
+  display: block;
+  list-style: none;
+  text-align: center;
+  line-height: 2em;
+}
+.contenido__ayuda .contenido__ayuda .importante {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 0;
+}
+.contenido__ayuda .contenido__ayuda img {
+  padding: 1em;
+}
+.contenido__ayuda .contenido__ayuda .img-contenido {
+  position: absolute;
+  width: 200px;
+  top: 0;
+  right: 0;
+}
+.contenido__ayuda .contenido__ayuda a {
+  display: block;
+  text-align: center;
+  font-size: 1.5em;
+  color: #000;
+  transition: 8ms all;
+}
+.contenido__ayuda .contenido__ayuda a:hover {
+  color: #f00;
+}

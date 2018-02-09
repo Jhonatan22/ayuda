@@ -1,0 +1,32 @@
+$(document).ready(function(){
+	$('#contenido__ayuda').load('a_bnv.html');
+});
+//formulario
+$('#link__bnv').click(function(){
+	//$('#open__registro').addClass('is-active');
+	//$('#open__login').removeClass('is-active');
+	$('#contenido__ayuda').load('a_bnv.html')
+});
+$('#link__soy__cliente').click(function(){
+	// $('#open__login').addClass('is-active');
+	// $('#open__registro').removeClass('is-active');
+	$('#contenido__ayuda').load('a_scliente.html')
+});
+$('#link__ser__cliente').click(function(){
+	$('#contenido__ayuda').load('a_qcliente.html')
+});
+$('#link__negocio').click(function(){
+	$('#contenido__ayuda').load('a_qnecesito.html')
+});
+$('#link__beneficios').click(function(){
+	$('#contenido__ayuda').load('a_beneficios_negocio.html')
+});
+$('#link__administro').click(function(){
+	$('#contenido__ayuda').load('a_administro.html')
+});
+$('#link__encuentran').click(function(){
+	$('#contenido__ayuda').load('a_encuentran.html')
+});
+$('#link__contactenos').click(function(){
+	$('#contenido__ayuda').load('a_contactenos.html')
+});

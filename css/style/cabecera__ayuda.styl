@@ -1,0 +1,51 @@
+.cabecera__ck
+    background #ffffff
+    height 50px
+    max-width 100%
+    position fixed
+    z-index 999
+    .buscador__ck
+        display flex
+        align-items center
+        height 50px
+    .inp
+        padding 3px
+        height 32px
+    .inp-lugar
+        flex-grow 0
+        width 40%
+    .inp-des
+        flex-grow 0
+        width 50%
+    .btn-buscar
+        btn__jc(b1,b2)
+    .btn-login
+        btn__jc(b1,b2)
+        float right
+        margin 4px
+        width 60%
+    .logo
+        cursor pointer
+        display flex
+        justify-content center
+        align-items center
+        .logotipo
+            color #009688
+            font-family maven-pro
+            font-size 1.5em
+@media all and (min-width100px)
+    .logo
+        width 2225%
+@media all and (min-width770px)
+    .inp-des
+        width 45%
+    .inp-lugar
+        width 45%
+.cinta
+    background b2
+    color #fff
+    position fixed
+    top 50px
+    z-index 999999
+    height 28px
+    padding 2px 1em
